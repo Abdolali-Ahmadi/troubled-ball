@@ -1,0 +1,50 @@
+
+:root{
+    --border:1px solid rgba(255,255,255,1);
+
+}
+body{
+    background-color: white;
+}
+
+#mob{
+    border:var(--border);
+
+    border-radius: 20px;
+    margin:2rem auto;
+    background-color: black;
+    width:220px;
+    height:400px ;
+    box-shadow: -8px -5px black;
+}
+#mob #mob-speaker{
+    border-top:3px solid rgba(255,255,255,.6);
+    width:30px;
+    margin:20px auto;
+    border-radius: 100px;
+}
+#mob #mob-image{
+    position:relative;
+    background: url('https://uupload.ir/files/q2k9_622205.jpg') no-repeat center center/cover;
+    width:200px;
+    height:300px;
+    border-top:none;
+    margin-left:10px;
+    border-bottom:none;
+}
+#mob #mob-button{
+    width:35px;
+    height:35px;
+    border:1px solid rgba(255,255,255,.6);;
+    /* background: black; */
+    border-radius: 50%;
+    margin:10px auto;
+}
+#box {
+    width: 10px;
+    height: 10px;
+    border-color: red;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+}
